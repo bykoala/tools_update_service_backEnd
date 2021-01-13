@@ -1,0 +1,191 @@
+{"level":"INFO","time":"2021-01-13T08:52:05.886+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T08:52:05.886+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T08:52:05.892+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T08:52:59.462+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T08:52:59.462+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T08:52:59.468+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T08:53:11.051+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.015961209}
+{"level":"ERROR","time":"2021-01-13T08:54:45.797+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T08:54:45.797+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.1","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000112953}
+{"level":"ERROR","time":"2021-01-13T10:27:38.753+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T10:27:38.753+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.1","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.00009073}
+{"level":"ERROR","time":"2021-01-13T10:27:50.000+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T10:27:50.000+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=%E2%80%9Cv1.0.1%E2%80%9D","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000103003}
+{"level":"ERROR","time":"2021-01-13T10:28:03.579+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T10:28:03.579+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"%E2%80%9Cversion%E2%80%9D=%E2%80%9Cv1.0.1%E2%80%9D","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000081575}
+{"level":"ERROR","time":"2021-01-13T10:28:18.779+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T10:28:18.780+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.1","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000088251}
+{"level":"ERROR","time":"2021-01-13T10:39:49.233+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T10:39:49.233+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000081676}
+{"level":"ERROR","time":"2021-01-13T10:39:55.031+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T10:39:55.031+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000088386}
+{"level":"ERROR","time":"2021-01-13T10:39:59.472+0800","caller":"controllers/update.go:48","msg":"Signup param invalid","error":"EOF"}
+{"level":"INFO","time":"2021-01-13T10:39:59.473+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000801824}
+{"level":"INFO","time":"2021-01-13T10:40:47.246+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.003226844}
+{"level":"INFO","time":"2021-01-13T10:42:33.125+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.00311655}
+{"level":"INFO","time":"2021-01-13T10:42:39.792+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T10:42:39.792+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T10:42:39.798+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T10:42:42.560+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.00632816}
+{"level":"INFO","time":"2021-01-13T10:57:50.502+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T10:57:50.503+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T10:57:50.509+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T10:57:56.635+0800","caller":"controllers/update.go:48","msg":"getupdateinfo param invalid"}
+{"level":"INFO","time":"2021-01-13T10:57:56.635+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000179794}
+{"level":"INFO","time":"2021-01-13T10:58:10.412+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004344622}
+{"level":"INFO","time":"2021-01-13T10:59:08.104+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004652451}
+{"level":"INFO","time":"2021-01-13T11:08:32.930+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T11:08:32.930+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T11:08:32.936+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T11:08:40.533+0800","caller":"logic/update.go:13","msg":"发布失败"}
+{"level":"INFO","time":"2021-01-13T11:08:40.537+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.00715738}
+{"level":"ERROR","time":"2021-01-13T11:08:43.346+0800","caller":"logic/update.go:13","msg":"发布失败"}
+{"level":"INFO","time":"2021-01-13T11:08:43.346+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.003227569}
+{"level":"INFO","time":"2021-01-13T11:14:22.982+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T11:14:22.982+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T11:14:22.987+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T11:14:29.465+0800","caller":"logic/update.go:13","msg":"发布失败"}
+{"level":"ERROR","time":"2021-01-13T11:14:29.473+0800","caller":"controllers/update.go:38","msg":"发布失败"}
+{"level":"INFO","time":"2021-01-13T11:14:29.473+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.01187919}
+{"level":"INFO","time":"2021-01-13T11:14:47.384+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T11:14:47.384+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T11:14:47.390+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T11:14:53.850+0800","caller":"logic/update.go:13","msg":"发布失败"}
+{"level":"ERROR","time":"2021-01-13T11:14:53.850+0800","caller":"controllers/update.go:38","msg":"发布失败"}
+{"level":"INFO","time":"2021-01-13T11:14:53.851+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.008111363}
+{"level":"INFO","time":"2021-01-13T11:33:32.910+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T11:33:32.910+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T11:33:32.917+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T11:33:38.716+0800","caller":"logic/update.go:13","msg":"发布失败"}
+{"level":"ERROR","time":"2021-01-13T11:33:38.717+0800","caller":"controllers/update.go:38","msg":"发布失败"}
+{"level":"INFO","time":"2021-01-13T11:33:38.717+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.007508555}
+{"level":"INFO","time":"2021-01-13T11:41:22.633+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.003058922}
+{"level":"INFO","time":"2021-01-13T12:54:59.214+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T12:54:59.214+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T12:54:59.220+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T12:55:07.899+0800","caller":"logger/logger.go:122","msg":"[Recovery from panic]","error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /update HTTP/1.1\r\nHost: localhost:8088\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nConnection: keep-alive\r\nContent-Length: 117\r\nContent-Type: application/json\r\nPostman-Token: 4c6a65c0-8e56-49a1-8709-1505ef0d36ac\r\nUser-Agent: PostmanRuntime/7.26.8\r\n\r\n","stack":"goroutine 50 [running]:\nruntime/debug.Stack(0x0, 0xc0002c8000, 0x105)\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x9d\ntool_update_service/logger.GinRecovery.func1.1(0xc0002b2000, 0x1)\n\t/Users/bysu/go/src/tool_update_service/logger/logger.go:125 +0x24c\npanic(0x16dbaa0, 0x1d30200)\n\t/usr/local/go/src/runtime/panic.go:969 +0x166\ntool_update_service/dao/mysql.InsertUpdateInfo(0xc00018d2b8, 0x6, 0x0)\n\t/Users/bysu/go/src/tool_update_service/dao/mysql/update.go:47 +0x3a5\ntool_update_service/logic.Update(0xc00028c140, 0xc0003aa000, 0x1690280)\n\t/Users/bysu/go/src/tool_update_service/logic/update.go:27 +0xe3\ntool_update_service/controllers.UpdateHandler(0xc0002b2000)\n\t/Users/bysu/go/src/tool_update_service/controllers/update.go:37 +0x5f0\ngithub.com/gin-gonic/gin.(*Context).Next(0xc0002b2000)\n\t/Users/bysu/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b\ntool_update_service/logger.GinRecovery.func1(0xc0002b2000)\n\t/Users/bysu/go/src/tool_update_service/logger/logger.go:136 +0x56\ngithub.com/gin-gonic/gin.(*Context).Next(0xc0002b2000)\n\t/Users/bysu/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b\ntool_update_service/logger.GinLogger.func1(0xc0002b2000)\n\t/Users/bysu/go/src/tool_update_service/logger/logger.go:77 +0x91\ngithub.com/gin-gonic/gin.(*Context).Next(0xc0002b2000)\n\t/Users/bysu/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000438000, 0xc0002b2000)\n\t/Users/bysu/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x666\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000438000, 0x18af5a0, 0xc0002ac000, 0xc0003aa000)\n\t/Users/bysu/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x14d\nnet/http.serverHandler.ServeHTTP(0xc0004360e0, 0x18af5a0, 0xc0002ac000, 0xc0003aa000)\n\t/usr/local/go/src/net/http/server.go:2836 +0xa3\nnet/http.(*conn).serve(0xc0003a2000, 0x18b1960, 0xc0003a6000)\n\t/usr/local/go/src/net/http/server.go:1924 +0x86c\ncreated by net/http.(*Server).Serve\n\t/usr/local/go/src/net/http/server.go:2962 +0x35c\n"}
+{"level":"INFO","time":"2021-01-13T12:55:07.900+0800","caller":"logger/logger.go:80","msg":"/update","status":500,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.006334238}
+{"level":"INFO","time":"2021-01-13T13:02:18.947+0800","caller":"controllers/update.go:50","msg":"发布成功..."}
+{"level":"INFO","time":"2021-01-13T13:02:18.947+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.016559064}
+{"level":"INFO","time":"2021-01-13T15:58:29.197+0800","caller":"controllers/update.go:50","msg":"发布成功..."}
+{"level":"INFO","time":"2021-01-13T15:58:29.198+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.020594308}
+{"level":"INFO","time":"2021-01-13T15:58:34.541+0800","caller":"controllers/update.go:50","msg":"发布成功..."}
+{"level":"INFO","time":"2021-01-13T15:58:34.541+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.012067834}
+{"level":"INFO","time":"2021-01-13T17:29:21.804+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T17:29:21.805+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T17:29:21.811+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T17:29:42.200+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T17:29:42.200+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.002082008}
+{"level":"INFO","time":"2021-01-13T17:51:19.416+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T17:51:19.416+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T17:51:19.423+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T17:51:23.675+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T17:51:23.675+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.002034789}
+{"level":"INFO","time":"2021-01-13T17:52:54.432+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T17:52:54.432+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T17:52:54.439+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T17:53:09.917+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T17:53:09.917+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.008099167}
+{"level":"INFO","time":"2021-01-13T17:54:02.244+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T17:54:02.244+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T17:54:02.250+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T17:54:06.983+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T17:54:06.984+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004669343}
+{"level":"INFO","time":"2021-01-13T17:54:37.416+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T17:54:37.416+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T17:54:37.421+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T17:54:41.406+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T17:54:41.406+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.005537667}
+{"level":"INFO","time":"2021-01-13T17:55:41.415+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T17:55:41.415+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T17:55:41.421+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T17:55:43.774+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T17:55:43.774+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.002362636}
+{"level":"INFO","time":"2021-01-13T17:58:29.135+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T17:58:29.135+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T17:58:29.141+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T17:58:33.719+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T17:58:33.720+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.003674721}
+{"level":"INFO","time":"2021-01-13T18:11:05.137+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T18:11:05.138+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T18:11:05.144+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T18:11:13.675+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T18:11:13.678+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.008462066}
+{"level":"INFO","time":"2021-01-13T18:15:41.282+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T18:15:41.283+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T18:15:41.288+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T18:15:48.928+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T18:15:48.928+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.00694538}
+{"level":"INFO","time":"2021-01-13T18:19:15.779+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T18:19:15.779+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T18:19:15.785+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T18:19:21.680+0800","caller":"controllers/update.go:82","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T18:19:21.680+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.006173704}
+{"level":"INFO","time":"2021-01-13T18:45:14.590+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T18:45:14.590+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T18:45:14.596+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T18:45:23.253+0800","caller":"controllers/update.go:83","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T18:45:23.255+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.007547421}
+{"level":"INFO","time":"2021-01-13T18:47:51.536+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T18:47:51.536+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T18:47:51.544+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T18:47:59.821+0800","caller":"controllers/update.go:84","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T18:47:59.821+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.005733092}
+{"level":"INFO","time":"2021-01-13T19:19:24.094+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T19:19:24.094+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T19:19:24.100+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T19:19:30.191+0800","caller":"controllers/update.go:85","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T19:19:30.191+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.003242451}
+{"level":"INFO","time":"2021-01-13T19:19:31.350+0800","caller":"controllers/update.go:85","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T19:19:31.350+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004860954}
+{"level":"INFO","time":"2021-01-13T19:19:41.320+0800","caller":"controllers/update.go:85","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T19:19:41.321+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.3","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004690658}
+{"level":"INFO","time":"2021-01-13T19:19:42.690+0800","caller":"controllers/update.go:85","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T19:19:42.690+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.3","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.005986892}
+{"level":"INFO","time":"2021-01-13T19:20:52.770+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T19:20:52.771+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T19:20:52.777+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T19:21:02.354+0800","caller":"controllers/update.go:85","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T19:21:02.354+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.3","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.005570929}
+{"level":"ERROR","time":"2021-01-13T19:21:56.400+0800","caller":"controllers/update.go:58","msg":"getupdateinfo param invalid"}
+{"level":"INFO","time":"2021-01-13T19:21:56.400+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000086154}
+{"level":"INFO","time":"2021-01-13T19:23:19.681+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T19:23:19.681+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T19:23:19.687+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T19:23:26.440+0800","caller":"logic/update.go:44","msg":"无需更新"}
+{"level":"ERROR","time":"2021-01-13T19:23:26.443+0800","caller":"controllers/update.go:70","msg":"无需更新...","error":"无需更新"}
+{"level":"INFO","time":"2021-01-13T19:23:26.443+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.3","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.006601425}
+{"level":"INFO","time":"2021-01-13T19:24:10.146+0800","caller":"controllers/update.go:86","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T19:24:10.146+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.2","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004353716}
+{"level":"ERROR","time":"2021-01-13T19:24:35.283+0800","caller":"logic/update.go:14","msg":"发布失败"}
+{"level":"ERROR","time":"2021-01-13T19:24:35.283+0800","caller":"controllers/update.go:39","msg":"发布失败","error":"版本已存在"}
+{"level":"INFO","time":"2021-01-13T19:24:35.283+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004244516}
+{"level":"INFO","time":"2021-01-13T19:24:44.645+0800","caller":"controllers/update.go:51","msg":"发布成功..."}
+{"level":"INFO","time":"2021-01-13T19:24:44.645+0800","caller":"logger/logger.go:80","msg":"/update","status":200,"method":"POST","path":"/update","query":"","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.016124352}
+{"level":"INFO","time":"2021-01-13T19:24:52.970+0800","caller":"controllers/update.go:86","msg":"获取更新信息成功...."}
+{"level":"INFO","time":"2021-01-13T19:24:52.970+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.3","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.004110018}
+{"level":"INFO","time":"2021-01-13T19:24:57.755+0800","caller":"logic/update.go:44","msg":"无需更新"}
+{"level":"ERROR","time":"2021-01-13T19:24:57.755+0800","caller":"controllers/update.go:70","msg":"无需更新...","error":"无需更新"}
+{"level":"INFO","time":"2021-01-13T19:24:57.755+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.4","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.007859115}
+{"level":"INFO","time":"2021-01-13T19:51:21.441+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T19:51:21.441+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T19:51:21.447+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T19:51:29.094+0800","caller":"controllers/update.go:59","msg":"getupdateinfo param invalid"}
+{"level":"INFO","time":"2021-01-13T19:51:29.096+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.4","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.002041279}
+{"level":"INFO","time":"2021-01-13T19:52:02.482+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T19:52:02.482+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T19:52:02.488+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"ERROR","time":"2021-01-13T19:52:08.553+0800","caller":"controllers/update.go:59","msg":"getupdateinfo param invalid"}
+{"level":"INFO","time":"2021-01-13T19:52:08.553+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.4","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.000154907}
+{"level":"INFO","time":"2021-01-13T19:53:02.849+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T19:53:02.849+0800","caller":"tool_update_service/main.go:23","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T19:53:02.855+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T19:53:05.226+0800","caller":"logic/update.go:44","msg":"无需更新"}
+{"level":"ERROR","time":"2021-01-13T19:53:05.226+0800","caller":"controllers/update.go:70","msg":"无需更新...","error":"无需更新"}
+{"level":"INFO","time":"2021-01-13T19:53:05.227+0800","caller":"logger/logger.go:80","msg":"/getUpdateinfo","status":200,"method":"GET","path":"/getUpdateinfo","query":"version=v1.0.4","ip":"::1","user-agent":"PostmanRuntime/7.26.8","errors":"","cost":0.003631631}
+{"level":"INFO","time":"2021-01-13T20:20:12.234+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T20:20:12.235+0800","caller":"tool_update_service/main.go:27","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T20:20:12.241+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
+{"level":"INFO","time":"2021-01-13T20:27:58.277+0800","caller":"logger/logger.go:47","msg":"init logger success"}
+{"level":"DEBUG","time":"2021-01-13T20:27:58.278+0800","caller":"tool_update_service/main.go:28","msg":"logger init success..."}
+{"level":"ERROR","time":"2021-01-13T20:27:58.284+0800","caller":"mysql/mysql.go:24","msg":"mysql初始化成功！"}
