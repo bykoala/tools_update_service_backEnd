@@ -1,0 +1,22 @@
+name: "tool_update_service"
+port: 8088
+mode: "dev"
+version: "v1.0"
+
+log:
+  level: "debug"
+  filename: "log/request_history.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: root
+  dbname: update_data
+  #用于设置最大打开的连接数，默认值为0表示不限制。
+  max_open_conns: 20
+  #用于设置闲置的连接数。
+  max_idle_conns: 10
