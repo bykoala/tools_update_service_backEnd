@@ -11,10 +11,10 @@ log:
   max_backups: 7
 
 mysql:
-  host: 127.0.0.1
+  host: 192.168.3.146
   port: 3306
   user: root
-  password: root
+  password: subaoya112
   dbname: update_data
   #用于设置最大打开的连接数，默认值为0表示不限制。
   max_open_conns: 20

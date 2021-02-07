@@ -1,0 +1,25 @@
+{{define "release/debugajax.tmpl"}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>异步接收集合数据</title>
+    <script type="text/javascript" src="xxx/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+      $("document").ready(function(){
+          var url = "getUpdateinfo?version=1.0.0";
+          var data = {};
+          $.get(url,data,function(res){
+
+          });
+      })
+    </script>
+</head>
+<body>
+<button id="btn">点击异步</button>
+<div id="xianshi">
+</div>
+</body>
+</html>
+{{ end }}

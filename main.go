@@ -41,10 +41,4 @@ func main() {
 	// 5.注册路由
 	app := routers.SetupRouter()
 	app.Run(fmt.Sprintf(":%d", settings.Config.Port))
-	/*
-		版本号：
-		更新内容：
-		是否强制更新：
-		下载地址：
-	*/
 }
