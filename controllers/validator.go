@@ -11,6 +11,7 @@ import (
 	zhTranslations "github.com/go-playground/validator/v10/translations/zh"
 	"reflect"
 	"strings"
+	"unicode/utf8"
 )
 
 // 定义一个全局翻译器T
@@ -66,4 +67,13 @@ func removeTopStruct(fields map[string]string) map[string]string {
 		res[field[strings.Index(field, ".")+1:]] = err
 	}
 	return res
+}
+
+//自定义校验函数
+func checkFieldIsNotEmpty(f validator.FieldLevel) bool { // FieldLevel contains all the information and helper functions to validate a field
+	count := utf8.RuneCountInString(f.Field().String()) //通过utf8编码，获取字符串长度
+	if count > 0 {
+		return true
+	}
+	return false
 }

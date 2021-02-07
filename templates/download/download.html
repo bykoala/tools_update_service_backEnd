@@ -1,0 +1,120 @@
+{{define "download/download.html"}}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>你的历史，我来记录</title>
+    <link rel="stylesheet" href="xxx/css/index.css">
+</head>
+<body>
+<div id="xianshi">
+    <p>{{.}}</p>
+</div>
+
+</body>
+<script type="text/javascript" src="xxx/js/jquery-3.5.1.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function (){
+        var content = document.body.textContent
+        // document.write("<div id = 'updateinfo' ></div>");
+        document.createElement("<div id = 'updateinfo' ></div>");
+        var contentt = content.split("fengexain")[2]
+        var ct = $.parseJSON(contentt);
+       console.log(ct.data)
+        /* console.log(ct.data['0'])
+        console.log(ct.data['1'])*/
+
+            var div = document.getElementById("updateinfo");
+            for(var ever in ct.data) {
+
+                vdiv = document.createElement("div");
+                ds = ct.data[ever];
+                ver = ds.Version;
+                vdiv.setAttribute('id',ver)  //新建一个id为版本号的div
+                vspan = document.createElement("span");
+                vdiv.appendChild(vspan);
+                vspan.innerHTML = "版本号：" + ver+"</br>";
+
+
+                mspan = document.createElement("span");
+                vdiv.appendChild(mspan);
+                mspan.innerHTML = "文件md5值：" + ds.Md5+"</br>";
+
+
+                uspan = document.createElement("span");
+                vdiv.appendChild(uspan);
+                uspan.innerHTML = "<a href='" + ds.Url+"'>下载</a></br>";
+
+
+                cspan = document.createElement("span");
+                vdiv.appendChild(cspan);
+                cspan.innerHTML = "更新内容：" + ds.Content+"</br>";
+
+                tspan = document.createElement("span");
+                vdiv.appendChild(tspan);
+                tspan.innerHTML = "发布时间：" + ds.CreateTiem+"</br>";
+
+                hspan = document.createElement("hr");
+                vdiv.appendChild(hspan);
+
+                div.appendChild(vdiv);
+            }
+    })
+
+
+    /*$(document).ready(function (){
+        $.ajax({
+            type : 'get',
+            url : 'getUpdateHistory',
+            async : false,
+            contentType : "application/json; charset=gbk",
+            data : {},
+       /!*     beforeSend : function() {
+                show('.load');
+            },*!/
+            success : function(data, status) {
+                var rstate = data.result;
+                if (rstate == "0") {
+                    if (rstate == "0") {
+                        alert('接口调用成功！');
+                    } else {
+                        alert('接口调用失败！');
+                    }
+                }
+            }
+            ,
+            complete : function() {
+                alert("完成")
+            },
+            error : function(data, status, e) {
+                alert('接口调用错误！');
+            }
+        })
+    })*/
+
+    /*$("#xianshi").ready(function(){
+        var url = "getUpdateHistory";
+        var data = {};
+        $.get(url,data,function(res){
+           console.log(res.responseText)
+        });
+    })*/
+   /* window.onload = function(){
+            $.getJSON("getUpdateHistory",function(json){
+                console.log(json)
+
+
+                $(json).each(function(index,data){
+                    $("#xianshi").append("<br>"+data.msg+","+data.code);
+                })
+            })
+    }*/
+</script>
+fengexain
+</html>
+{{end}}

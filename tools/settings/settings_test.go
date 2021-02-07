@@ -21,10 +21,10 @@ func TestInit(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if err := Init(); (err != nil) != tt.wantErr && tt.name == "success" {
+			if err := Init("config/config.ymal"); (err != nil) != tt.wantErr && tt.name == "success" {
 				t.Errorf("Init() error = %v, wantErr %v", err, tt.wantErr)
 			}
-			if err := Init(); (err != nil) == tt.wantErr && tt.name == "failed" {
+			if err := Init("config/config.ymal"); (err != nil) == tt.wantErr && tt.name == "failed" {
 				t.Errorf("Init() error = %v, wantErr %v", err, tt.wantErr)
 			}
 		})

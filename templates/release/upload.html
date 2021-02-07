@@ -1,0 +1,223 @@
+{{define "release/upload.html"}}
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>创世界之发版</title>
+    <link rel="stylesheet" href="xxx/css/index.css">
+</head>
+<body>
+<div id="rel_cn" align="center">
+    当前系统中最新版本为：{{.}}
+<hr>
+    <div id="form">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+         <div>
+             即将发布版本：<input type="text" value="v1.0" name="version" id="version"></br>
+         </div>
+            <div>
+                <input type="hidden" value="1" name="classification">
+                <input type="file" name="fileName" id="filename">
+                <input type="submit" value="上传" id="upload">
+            </div>
+        </form>
+    </div>
+
+    <div id="lab" hidden>
+        md5的值为： <label id="md5"></label> </br>
+        文件大小为： <label id="filesize"></label> MB</br>
+        文件的url：<label id="url"></label></br>
+    </div>
+    <div id="content_cn" hidden>
+        <span>本次更新内容：</span></br>
+
+        <textarea id="content" contenteditable="true"></textarea>
+    </div>
+
+    <div>
+        <select id="forced" hidden>
+            <option value=0>普通更新</option>
+            <option value=1>重大更新</option>
+        </select>
+        </br>
+        <button type="submit" id="release" disabled>发布</button>
+    </div>
+</div>
+
+
+
+
+</body>
+<script type="text/javascript" src="xxx/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+
+    //重定向至更新记录页
+    function direct(){
+        if(confirm("页面将跳转至更新记录页，确定要继续操作吗？")){
+            setTimeout("showDiv('reboot_pre')",500);
+            window.location.replace("getUpdateHistory")
+        }else {
+            document.write("<span id = 'rel_success' >恭喜你，成功发布了！</span>");
+        }
+    }
+
+    $('form').submit(function(event) {
+            event.preventDefault();
+            var form = $(this);
+            var formData = new FormData(this);
+            $.ajax({
+                type: form.attr('method'),
+                url: form.attr('action'),
+                data: formData,
+                mimeType: "multipart/form-data",
+                contentType: false,
+                // async:false,
+                cache: false,
+                processData: false,
+                success: function(data) {
+                    // JSON字符串转换为JSON对象
+                    data = JSON.parse(data);
+                    document.getElementById('md5').innerHTML = data.md5;
+                    document.getElementById('filesize').innerHTML = (Math.round(data.size/1024/1024 * 100) / 100);
+                    document.getElementById('url').innerHTML = data.url;
+                    $('#lab').removeAttr("hidden");
+                    $('#forced').removeAttr("hidden");
+                    $('#content_cn').removeAttr("hidden");
+                    $('#release').removeAttr("disabled");
+                }
+            });
+        }
+    );
+
+    /*get请求
+    $(function(){
+        $("#release").click(function(){
+
+            $.getJSON("upload",function(json){
+                $(json).each(function(index,user){
+                    $("#xianshi").append("<br>"+user.uname+","+user.psw);
+                })
+            })
+        })
+    })
+
+    */
+
+        $("#release").click(function(data) {
+            var md5 = $("#md5").text();
+            var version =  $("#version").val();
+            var filesize = parseFloat($("#filesize").text());
+            console.log(filesize)
+            var forced = parseInt($("#forced").val());
+            var content = $("#content").val();
+            var url = $("#url").text();
+            $.ajax({
+                url: "update",
+                type: "post",
+                dataType: "json",
+                contentType: "application/json; charset=utf8",
+                // async:false,//注意添加async：false 同步参数
+                data:JSON.stringify({
+                    "version":version,
+                    "content":content,
+                    "forced":forced,
+                    "size":filesize,
+                    "md5":md5,
+                    "url":url
+                }),
+                success: function (responseText) {
+                    if (responseText.code==10000){
+                        direct()
+                    }
+                },
+                error: function () {
+                    console.log(responseText)
+                    alert("发布失败了！");
+                }
+            });
+         });
+
+//可用，但是接收不到返回值
+    /*
+    $(function(){
+        $("#release").click(function(data){
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/update", true);
+            xhr.setRequestHeader("Content-type", "application/json");
+            xhr.setRequestHeader("kbn-version", "5.3.0");
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4) {
+                    if (xhr.status == 200) {
+                        console.log("success..........")
+                    }
+                }
+            };
+            var md5 = $("#md5").text();
+            var version =  $("#version").val();
+            var filesize = parseFloat($("#filesize").text());
+            console.log(filesize)
+            var forced = parseInt($("#forced").val());
+            var content = $("#content").val();
+            var url = $("#url").text();
+            xhr.send(JSON.stringify({
+                "version":version,
+                "content":content,
+                "forced":forced,
+                "size":filesize,
+                "md5":md5,
+                "url":url
+            }));
+            console.log("==========================")
+            console.log(xhr.responseText)
+            console.log("==========================")
+
+        })
+    })
+
+  */
+
+    /*
+
+        $(function(){
+            $("#release").click(function(){
+
+                $.ajax({
+                    url:"update",
+                    type:"post",
+                    dataType:"json",
+                    contentType:"application/json; charset=utf8",
+                    // async:false,//注意添加async：false 同步参数
+                    data:{
+                        'version':'11.0.8',
+                        'content':'js提交的发布流程',
+                        'forced':'1',
+                        'size':'1.03',
+                        'md5':'5f50bfe95cce5f5ca4af3dc8b835f5d3',
+                        'url':'http://www.tongzhi.wang'
+                    },
+                    success:function(responseText){
+                        console.log(responseText)
+                        alert("发布成功了！")
+                    },
+                    error:function(){
+                        alert("发布失败了！");
+                    }
+                });
+            })
+        })
+    */
+
+    /* $("#release").ready(function(){
+         var url = "getUpdateinfo?version=1.0.0";
+         var data = {};
+         $.get(url,data,function(res){
+             var fileInfo = eval("(" + res +")");
+             $("md5").val(fileInfo.md5);
+         });
+     })
+     */
+</script>
+</html>
+{{end}}
